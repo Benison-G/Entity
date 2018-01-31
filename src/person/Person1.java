@@ -7,7 +7,7 @@ import java.util.Date;
  * To store a person's information
  */
 public class Person1 {
-	private String name;
+    private String name;
     private String gender;
     private Date dateOfBirth;
     private String address;

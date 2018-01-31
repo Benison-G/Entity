@@ -8,7 +8,7 @@ import java.util.Date;
  * Uses inner or nested class to store the address of a person
  */
 public class Person3 {
-	private String name;
+    private String name;
     private String gender;
     private Date dateOfBirth;
     
@@ -30,7 +30,7 @@ public class Person3 {
 			this.town = town;
 		}
         
-		int doorNo;
+        int doorNo;
         String street;
         String town;
     }
