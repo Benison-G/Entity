@@ -19,9 +19,9 @@ public class Person3 {
     public class Address {
     	/**
     	 * Constructor to initialize class members during instantiation
-    	 * @param doorNo
-    	 * @param street
-    	 * @param town
+    	 * @param doorNo An identifier for the door.
+    	 * @param street The text representing the street.
+    	 * @param town The text representing the town.
     	 */
         public Address(int doorNo, String street, String town) {
             super();

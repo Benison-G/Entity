@@ -4,7 +4,8 @@ import java.util.Date;
 
 /**
  * @author bg049380
- * To store a person's information
+ * To store a person's information.
+ * Contains Name, Gender,Date of birth and Address of the person. 
  */
 public class Person1 {
     private String name;
