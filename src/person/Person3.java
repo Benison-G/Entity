@@ -16,7 +16,7 @@ public class Person3 {
      * @author bg049380
      * Nested class to store the address.
      */
-    public class Address{
+    public class Address {
     	/**
     	 * Constructor to initialize class members during instantiation
     	 * @param doorNo
@@ -24,10 +24,10 @@ public class Person3 {
     	 * @param town
     	 */
         public Address(int doorNo, String street, String town) {
-			super();
-			this.doorNo = doorNo;
-			this.street = street;
-			this.town = town;
+            super();
+            this.doorNo = doorNo;
+            this.street = street;
+            this.town = town;
 		}
         
         int doorNo;

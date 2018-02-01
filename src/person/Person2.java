@@ -12,14 +12,14 @@ import person_utility.Address;
 public class Person2 {
     /**
     * @param name
-	* @param gender
+    * @param gender
     * @param dateOfBirth
     * @param address
     */
     public Person2(String name, String gender, Date dateOfBirth, Address address) {
     	super();
     	this.name = name;
-		this.gender = gender;
+        this.gender = gender;
     	this.dateOfBirth = dateOfBirth;
     	this.address = address;
     }
