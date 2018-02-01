@@ -28,7 +28,7 @@ public class Person3 {
             this.doorNo = doorNo;
             this.street = street;
             this.town = town;
-		}
+    	}
         
         int doorNo;
         String street;
