@@ -5,7 +5,6 @@ package person_utility;
  * Stores the address information.
  */
 public class Address {
-
     public Address() {}
 	
     private int doorNo;
