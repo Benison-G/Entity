@@ -1,15 +1,14 @@
 package person_utility;
 
 /**
- * @author bg049380
+ * @author Benison
  * Stores the address information.
  */
 public class Address {
-
-	/**
-	 * Constructor
-	 */
-	public Address() {
+    /**
+     * Constructor
+     */
+    public Address() {
 		// constructor body
 	}
 	
