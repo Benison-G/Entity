@@ -40,7 +40,7 @@ public class Person {
      */
     public String getFirstName() {
     	return firstName;
-	}
+    }
     
     /**
      * @param firstName The first name of the person.
