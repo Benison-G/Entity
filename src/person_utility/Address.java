@@ -5,14 +5,10 @@ package person_utility;
  * Stores the address information.
  */
 public class Address {
-    /**
-     * Constructor
-     */
-    public Address() {
-		// constructor body
-	}
+
+    public Address() {}
 	
-	private int doorNo;
+    private int doorNo;
     private String street;
     private String town;
 }
