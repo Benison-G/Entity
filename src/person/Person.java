@@ -2,8 +2,6 @@ package person;
 
 import java.util.Date;
 
-import person_utility.Address;
-
 enum Gender {
     MALE,
     FEMALE

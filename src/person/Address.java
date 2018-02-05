@@ -1,4 +1,4 @@
-package person_utility;
+package person;
 
 /**
  * @author Benison
