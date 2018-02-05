@@ -9,7 +9,7 @@ enum Gender {
 
 /**
  * @author Benison
- * Stores information regarding person.
+ * Contains information regarding person.
  */
 public class Person {
     private String firstName;
