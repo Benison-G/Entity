@@ -2,36 +2,28 @@ package person;
 
 import java.util.Date;
 
+enum Gender {
+    MALE,
+    FEMALE
+}
+
 /**
  * @author bg049380
  * Stores information regarding person.
- * Uses inner or nested class to store the address of a person
  */
-public class Person3 {
-    private String name;
-    private String gender;
+public class Person {
+    private String firstName;
+    private String lastName;
+    private String fullName;
+    private Gender gender;
     private Date dateOfBirth;
-    
-    /**
-     * @author bg049380
-     * Nested class to store the address.
-     */
-    public class Address {
-    	/**
-    	 * Constructor to initialize class members during instantiation
-    	 * @param doorNo An identifier for the door.
-    	 * @param street The text representing the street.
-    	 * @param town The text representing the town.
-    	 */
-        public Address(int doorNo, String street, String town) {
-            super();
-            this.doorNo = doorNo;
-            this.street = street;
-            this.town = town;
-    	}
-        
-        int doorNo;
-        String street;
-        String town;
+    private Address address;
+
+    Person (){}
+    Person (String firstName, String lastName)
+    {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        fullName = firstName + " " + lastName;
     }
 }
