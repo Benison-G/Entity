@@ -4,7 +4,9 @@
  */
 public class Address {
     /** Default constructor */
-    Address () {}
+    Address() {
+        super();
+    }
     
     /**
      * Constructor of Address object.
