@@ -3,6 +3,9 @@
  * Contains the address information.
  */
 public class Address {
+    /** Default constructor */
+    Address () {}
+    
     /**
      * Constructor of Address object.
      * @param doorNo The unique identifier for a door.
