@@ -1,3 +1,5 @@
+package person;
+
 /**
  * @author Benison
  * Contains the address information.
