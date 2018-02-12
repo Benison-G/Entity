@@ -1,6 +1,8 @@
 package person;
 import java.util.Date;
 
+import com.sun.beans.introspect.PropertyInfo.Name;
+
 /**
  * Enumeration of gender.
  */
@@ -22,14 +24,14 @@ public class Person {
     /**
      * @param firstName The first name of the person.
      */
-    public void setName(String name) {
+    public void setName(Name name) {
     	this.name = name;
     }
 
     /**
      * @return The first name of the person.
      */
-    public void getName(String name) {
+    public Name getName(Name name) {
         return name;
     }
     
