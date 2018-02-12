@@ -14,111 +14,64 @@ enum Gender {
  * Contains information regarding person.
  */
 public class Person {
-    /**
-     * Constructor of Person object.
-     * @param firstName
-     * @param lastName
-     */
-    public Person(String firstName, String lastName) {
-    	super();
-    	this.firstName = firstName;
-    	this.lastName = lastName;
-    	fullName = firstName +  " " + lastName;
-    }
-
-    private String firstName;
-    private String lastName;
-    private String fullName;
-
+    private Name name;
     private Gender gender;
-    
     private Date dateOfBirth;
-    
     private Address address;
+
+    /**
+     * @param firstName The first name of the person.
+     */
+    public void setName(String name) {
+    	this.name = name;
+    }
 
     /**
      * @return The first name of the person.
      */
-    public String getFirstName() {
-    	return firstName;
+    public void getName(String name) {
+        return name;
     }
     
-    /**
-     * @param firstName The first name of the person.
-     */
-    public void setFirstName(String firstName) {
-    	this.firstName = firstName;
-    }
-	
-    /**
-     * @return The last name of the person.
-     */
-    public String getLastName() {
-    	return lastName;
-    }
-	
-    /**
-     * @param lastName The last name of the person.
-     */
-    public void setLastName(String lastName) {
-    	this.lastName = lastName;
-    }
-	
-    /**
-     * @return The full name of the person.
-     */
-    public String getFullName() {
-    	return fullName;
-    }
-	
-    /**
-     * Sets the full name of the person.
-     * @param firstName The first name of the person.
-     * @param lastName The last name of the person.
-     */
-    public void setFullName(String firstName, String lastName) {
-    	this.fullName = firstName + " " + lastName;
-    }
-	
-    /**
-     * @return The gender of the person.
-     */
-    public Gender getGender() {
-    	return gender;
-    }
-	
     /**
      * @param gender The gender of the person.
      */
     public void setGender(Gender gender) {
     	this.gender = gender;
     }
-	
+
     /**
-     * @return The date of birth of the person.
+     * @return The gender of the person.
      */
-    public Date getDateOfBirth() {
-    	return dateOfBirth;
+    public Gender getGender() {
+    	return gender;
     }
-	
+    
     /**
      * @param dateOfBirth The date of birth of the person.
      */
     public void setDateOfBirth(Date dateOfBirth) {
     	this.dateOfBirth = dateOfBirth;
     }
-	
+
     /**
-     * @return The address of the person.
+     * @return The date of birth of the person.
      */
-    public Address getAddress() {
-    	return address;
+    public Date getDateOfBirth() {
+    	return dateOfBirth;
     }
-	
+    
     /**
      * @param address The address of the person.
      */
     public void setAddress(Address address) {
     	this.address = address;
+    }
+    
+    /**
+     * @return The address of the person.
+     */
+    public Address getAddress() {
+    	return address;
     }
 }
