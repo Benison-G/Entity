@@ -6,12 +6,12 @@ public class Name {
     private String middleName;
     private String lastName;
 
-    public Name(firstName, middleName, lastName) {
+    public Name(String firstName, String middleName, String lastName) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
     }
-    
+
     public void setFirstname(String firstName) {
         this.firstName = firstName;
     }
